@@ -20,7 +20,7 @@ def request_sanitized_number(prompt):
 
 def request_sanitized_operation(prompt):
     valid_ops = ["add", "subtract", "multiply", "divide"]
-    while True:zabc
+    while True:
         op = input(prompt).strip().lower()
         if op in valid_ops:
             return op
